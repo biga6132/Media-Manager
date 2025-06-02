@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+/* Hides scrollbar for WebKit-based browsers (Chrome, Safari) and for Firefox/IE */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and older Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
