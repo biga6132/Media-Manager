@@ -23,26 +23,131 @@
       "vote_count": 15567
     },
     {
-      "id": "77169",
+      "id": 66732,
       "adult": false,
-      "backdrop_path": "/mQJVtl7SYjNLwjsUZZsITmAxtdU.jpg",
+      "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
       "genre_ids": [
-        10759,
         18,
-        35
+        10765,
+        9648
       ],
       "origin_country": [
         "US"
       ],
       "original_language": "en",
-      "original_name": "Cobra Kai",
-      "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
-      "popularity": 22.609,
-      "poster_path": "/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg",
-      "first_air_date": "2018-05-02",
-      "name": "Cobra Kai",
+      "original_name": "Stranger Things",
+      "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+      "popularity": 98.346,
+      "poster_path": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+      "first_air_date": "2016-07-15",
+      "name": "Stranger Things",
+      "vote_average": 8.596,
+      "vote_count": 18348
+    },
+    {
+      "id": 63174,
+      "adult": false,
+      "backdrop_path": "/mAXOCbZzvmDa6PCh5dcIPOB51Qc.jpg",
+      "genre_ids": [
+        80,
+        10765
+      ],
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Lucifer",
+      "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+      "popularity": 92.6364,
+      "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+      "first_air_date": "2016-01-25",
+      "name": "Lucifer",
+      "vote_average": 8.449,
+      "vote_count": 15000
+    },
+    {
+      "id": 245703,
+      "adult": false,
+      "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Dept. Q",
+      "overview": "A brash but brilliant cop becomes head of a new police department, where he leads an unlikely team of misfits in solving Edinburgh's cold cases.",
+      "popularity": 72.3784,
+      "poster_path": "/zOaltlzjjWgtj6vBQiBhNi9wRlo.jpg",
+      "first_air_date": "2025-05-29",
+      "name": "Dept. Q",
+      "vote_average": 7.766,
+      "vote_count": 32
+    },
+    {
+      "id": 61889,
+      "adult": false,
+      "backdrop_path": "/qsnXwGS7KBbX4JLqHvICngtR8qg.jpg",
+      "genre_ids": [
+        80,
+        18,
+        10759
+      ],
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Marvel's Daredevil",
+      "overview": "Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a young boy to fight crime at night on the streets of Hell’s Kitchen as Daredevil.",
+      "popularity": 57.7857,
+      "poster_path": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
+      "first_air_date": "2015-04-10",
+      "name": "Marvel's Daredevil",
       "vote_average": 8.2,
-      "vote_count": 6528
+      "vote_count": 4755
+    },
+    {
+      "id": 1144430,
+      "adult": false,
+      "backdrop_path": "/4A5HH9HkCPqAwyYL6CnA0mxbYjn.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53,
+        18
+      ],
+      "original_language": "fr",
+      "original_title": "Balle perdue 3",
+      "overview": "Car genius Lino returns to conclude his vendetta against Areski and the corrupt commander who ruined their lives in this turbo-charged trilogy finale.",
+      "popularity": 120.6324,
+      "poster_path": "/qycPITRqXgPai7zj1gKffjCdSB5.jpg",
+      "release_date": "2025-05-06",
+      "title": "Last Bullet",
+      "video": false,
+      "vote_average": 6.701,
+      "vote_count": 157
+    },
+    {
+      "id": 1156593,
+      "adult": false,
+      "backdrop_path": "/k24eZq5I3jyz4htPkZCRpnUmBzE.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "original_language": "es",
+      "original_title": "Culpa tuya",
+      "overview": "The love between Noah and Nick seems unwavering despite their parents' attempts to separate them. But his job and her entry into college open up their lives to new relationships that will shake the foundations of both their relationship and the Leister family itself.",
+      "popularity": 44.2992,
+      "poster_path": "/1sQA7lfcF9yUyoLYC0e6Zo3jmxE.jpg",
+      "release_date": "2024-12-26",
+      "title": "Your Fault",
+      "video": false,
+      "vote_average": 7.138,
+      "vote_count": 1261
     }
   ]
 }

@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+# 🎬 Media Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Netflix-inspired movie browsing app built with React, Vite, and TailwindCSS. This project showcases dynamic UI, API integration, and local state management using React Context. Users can browse movies, view trailers, and maintain a personal favorites list.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Media Manager Demo](./media-manager-demo.gif)
 
-## Expanding the ESLint configuration
+## 🔍 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🏠 **Home Page** with dynamic movie categories (Trending, Top Rated, Action, Comedy, etc.)
+- 🎞️ **Banner Carousel** highlighting trending movies
+- 🍿 **Movie Rows** with horizontal scroll and poster previews
+- ➕ **Add to List** button to save movies locally
+- ▶️ **Play Trailer** button opens YouTube trailer in new tab
+- 📄 **Recommendations Page** for curated picks
+- ✅ **Favorites List** stored via a mock API (`db.json`)
+- 🌐 **Responsive Navigation** with scroll-based styling
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🧪 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [React Router](https://reactrouter.com/)
+- [TMDb API](https://www.themoviedb.org/documentation/api)
+- Local JSON server (`db.json`) for mock persistence
+
+## 🧠 State Management
+
+- Global state handled with React Context (`MyListProvider` & `RecProvider`)
+
+## 📦 Installation
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/your-username/media-manager.git
+   cd media-manager
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Start local mock server (optional):**
+   ```bash
+   npx json-server --watch db.json --port 3000
+   ```
+
+## 📁 Folder Structure Highlights
+
+```
+src/
+├── components/
+│   ├── Banner.tsx
+│   └── Row.tsx
+├── pages/
+│   ├── Home.tsx
+│   ├── List.tsx
+│   └── Recommendation.tsx
+├── context/
+│   ├── List.context.tsx
+│   └── Recommendation.context.tsx
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Credits
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Movie data sourced from [TMDb](https://www.themoviedb.org/)
+- Design inspiration from Netflix UI
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📄 License
+
+This project is open-source under the [MIT License](LICENSE).
